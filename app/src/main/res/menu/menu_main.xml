@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_add"
+          android:icon="@drawable/add"
+          android:title="@string/action_add"
+          android:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/search"
+          android:title="@string/action_search"
+          android:showAsAction="ifRoom|collapseActionView"/>
+    <item android:id="@+id/action_import"
+        android:icon="@drawable/ic_import"
+        android:title="@string/action_import"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_export"
+        android:icon="@drawable/export"
+        android:title="@string/action_export"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_dell_all"
+          android:icon="@drawable/delete"
+          android:title="@string/action_delete_all"
+          android:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@+id/file_name"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:paddingTop="5dp"
+          android:drawablePadding="5dp"
+          android:singleLine="true"/>

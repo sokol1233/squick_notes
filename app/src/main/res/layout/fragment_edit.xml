@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/layout_edit"
+              android:visibility="gone">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:singleLine="true"
+        android:scrollHorizontally="true"
+        android:textSize="22sp"
+        android:inputType="text"
+        android:id="@+id/title"/>
+
+    <view
+        class="link.androidapps.quicknotes.view.LinedEditText"
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:padding="15dp"
+        android:scrollbars="vertical"
+        android:inputType="textMultiLine"/>
+
+    <TextView
+        android:id="@+id/footer_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/label_no_reminder"/>
+
+</LinearLayout>

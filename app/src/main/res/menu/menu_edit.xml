@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_schedule"
+          android:icon="@drawable/set_remind"
+          android:title="@string/schedule"
+          android:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_remove"
+          android:icon="@drawable/discard"
+          android:title="@string/remove"
+          android:showAsAction="ifRoom"
+          android:visible="false"/>
+
+</menu>

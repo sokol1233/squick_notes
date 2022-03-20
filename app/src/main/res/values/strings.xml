@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Quick notes with remind</string>
+    <!-- labels -->
+    <string name="label_list">List notes</string>
+    <string name="label_edit">Edit note</string>
+    <string name="label_no_reminder">No reminder set</string>
+    <string name="label_remind_on">Remind on:</string>
+    <string name="label_notification_title">Reminder</string>
+    <!-- actions -->
+    <string name="action_add">add</string>
+    <string name="action_search">search</string>
+    <string name="action_import">import</string>
+    <string name="action_export">export</string>
+    <string name="action_delete_all">delete all</string>
+    <!-- buttons and menu labels -->
+    <string name="add_quick_note">add quick note</string>
+    <string name="export">export</string>
+    <string name="ok">OK</string>
+    <string name="cancel">cancel</string>
+    <string name="close">close</string>
+    <string name="create">create</string>
+    <string name="delete">delete</string>
+    <string name="remove">remove reminder</string>
+    <string name="schedule">schedule reminder</string>
+    <string name="new_folder">create folder</string>
+    <!-- confirmations -->
+    <string name="confirm_delete_all">Confirm delete all</string>
+    <string name="confirm_delete">Confirm delete</string>
+    <string name="confirm_override">Override existing file?</string>
+    <!-- hints -->
+    <string name="hint_enter_title">enter title</string>
+    <string name="hint_search">enter title or part of it</string>
+    <!-- notification texts -->
+    <string name="quick_note_saved">Quick note saved</string>
+    <string name="nothing_for_deletion">Nothing for deletion</string>
+    <string name="success_export">Quick notes exported to </string>
+    <string name="success_import"> quick notes imported</string>
+    <string name="error_export">Error during export</string>
+    <string name="error_import">Error during import</string>
+    <string name="err_empty_title">Error! The title is empty or contain spaces only</string>
+    <string name="err_title_exists">"Error! Quick note with this title already exist"</string>
+    <string name="empty_title">Empty title or contain spaces only, saved with original</string>
+    <string name="empty_filename">The name is empty</string>
+    <string name="title_exists">Title already exist, saved with original</string>
+    <string name="folder_exist">Folder with this name already exist</string>
+</resources>

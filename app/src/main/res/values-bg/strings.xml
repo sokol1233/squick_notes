@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Бързи бележки с напомняне</string>
+    <!-- labels -->
+    <string name="label_list">Лист с бележките</string>
+    <string name="label_edit">Редактиране на бележка</string>
+    <string name="label_no_reminder">Няма напомняне</string>
+    <string name="label_remind_on">Напомняне на </string>
+    <string name="label_notification_title">Напомняне</string>
+    <!-- actions -->
+    <string name="action_add">добави</string>
+    <string name="action_search">търси</string>
+    <string name="action_import">импорт</string>
+    <string name="action_export">експорт</string>
+    <string name="action_delete_all">изтрий всички</string>
+    <!-- buttons and menu labels -->
+    <string name="add_quick_note">добавяне на бележка</string>
+    <string name="export">експорт</string>
+    <string name="ok">добре</string>
+    <string name="cancel">отмени</string>
+    <string name="close">затвори</string>
+    <string name="create">създай</string>
+    <string name="delete">изтрий</string>
+    <string name="remove">откажи напомнянето</string>
+    <string name="schedule">създай напомняне</string>
+    <string name="new_folder">нова папка</string>
+    <!-- confirmations -->
+    <string name="confirm_delete_all">Потвърдете изтриването на всички бележки</string>
+    <string name="confirm_delete">Потвърдете изтриването</string>
+    <string name="confirm_override">Замяна на съществуващия файл?</string>
+    <!-- hints -->
+    <string name="hint_enter_title">Напишете име</string>
+    <string name="hint_search">напишете име или част от него</string>
+    <!-- notification texts -->
+    <string name="quick_note_saved">Бележката е запазена</string>
+    <string name="nothing_for_deletion">Няма нищо за изтриване</string>
+    <string name="success_export">Бележките бяха записани в </string>
+    <string name="success_import">бележки бяха внесени</string>
+    <string name="error_export">Грешка при експорт</string>
+    <string name="error_import">Грешка при импорт</string>
+    <string name="err_empty_title">Грешка! Невалидно име</string>
+    <string name="err_title_exists">"Грешка! Бележка с това име вече съществува"</string>
+    <string name="empty_title">Невалидно име, запазено с оригиналното</string>
+    <string name="empty_filename">Името на файла е празно</string>
+    <string name="title_exists">Записка с това име съществува, запазено с оригиналното</string>
+    <string name="folder_exist">Папката вече съществува</string>
+</resources>

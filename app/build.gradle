@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+    }
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "link.androidapps.protectedquicknotes"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 3
+        versionName "1.2"
+        testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+    }
+
+    buildTypes {
+//        debug {
+//            applicationIdSuffix ".debug"
+//        }
+
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.google.firebase:firebase-appindexing:16.0.1'
+    implementation 'org.apache.commons:commons-lang3:3.4'
+    implementation 'commons-codec:commons-codec:1.10'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.5.3'
+}
